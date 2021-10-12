@@ -1,0 +1,22 @@
+@import "bootstrap/scss/bootstrap.scss";
+
+body {
+    background-color: $info;
+    position: relative;
+}
+
+.list-group-item{
+    transition: 0.15s all;
+    &:hover {
+        background-color: #f8f9fa;
+        cursor: pointer;
+    }
+}
+
+.z10 {
+    z-index: 10;
+}
+
+.z20 {
+    z-index: 20;
+}
